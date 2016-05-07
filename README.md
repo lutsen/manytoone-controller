@@ -1,7 +1,7 @@
 [<img src="https://cdn.rawgit.com/lutsen/lagan/master/lagan-logo.svg" width="100" alt="Lagan">](https://github.com/lutsen/lagan)
 
-Lagan Many-to-one Property
-==========================
+Lagan Many-to-one Property Controller
+=====================================
 
  Controller for the Lagan mamy-to-one property.  
  Lets the user define a may-to-one relation between two content objects.

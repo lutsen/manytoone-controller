@@ -1,5 +1,5 @@
 {
-	"name": "lagan/manytoone",
+	"name": "lagan/manytoone-property-controller",
 	"type": "library",
 	"description": "Controller for the Lagan mamy-to-one property. Lets the user define a may-to-one relation between two content objects.",
 	"keywords": ["lagan","many-to-one", "relation","property","controller"],
@@ -11,5 +11,8 @@
 			"homepage": "http://www.hoverkraft.nl",
 			"role": "Developer"
 		}
-	]
+	],
+	"require": {
+		"php": ">=5.5.0"
+	}
 }
