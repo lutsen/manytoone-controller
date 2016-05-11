@@ -1,5 +1,5 @@
 {
-	"name": "lagan/manytoone-property-controller",
+	"name": "lagan/property-manytoone",
 	"type": "library",
 	"description": "Controller for the Lagan mamy-to-one property. Lets the user define a may-to-one relation between two content objects.",
 	"keywords": ["lagan","many-to-one", "relation","property","controller"],
@@ -17,7 +17,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "Lagan\\Property\\": "/"
+            "Lagan\\Property\\": "src/"
         }
     }
 }
