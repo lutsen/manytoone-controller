@@ -41,13 +41,15 @@ class Manytoone {
 	}
 
 	/**
-	 * The options method returns all the optional values this property can have.
+	 * The options method returns all the optional values this property can have,
+	 * including the one it currently has.
 	 *
+	 * @param bean		$bean		The Redbean bean object with the property.
 	 * @param array		$property	Lagan model property arrray.
 	 *
 	 * @return array	Array with all beans of the $property['name'] Lagan model.
 	 */
-	public function options($property) {
+	public function options($bean, $property) {
 		return \R::findAll( $property['name'] );
 	}
 
