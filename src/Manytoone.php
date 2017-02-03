@@ -33,7 +33,7 @@ class Manytoone {
 		// Check and set relation
 		$relation = \R::findOne( $property['name'], ' id = :id ', [ ':id' => $new_value ] );
 		if ( !$relation ) {
-			throw new Exception('This '.$property['name'].' does not exist.');
+			throw new \Exception('This '.$property['name'].' does not exist.');
 		} else {
 			return $relation;
 		}
